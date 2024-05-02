@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="toggleWater" type="id" />
+    <item name="toggleGas" type="id" />
+    <item name="toggleDishwasher" type="id" />
+    <item name="toggleExtractorHood" type="id" />
+    <item name="textViewGasControl" type="id" />
+    <item name="textViewDishwasherControl" type="id" />
+    <item name="textViewExtractorHoodControl" type="id" />
+</resources>

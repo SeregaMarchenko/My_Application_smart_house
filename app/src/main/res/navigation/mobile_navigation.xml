@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/nav_hallway">
+
+    <fragment
+        android:id="@+id/nav_hallway"
+        android:name="com.example.my_application_smart_house.ui.hallway.HallwayFragment"
+        android:label="@string/menu_hallway"
+        tools:layout="@layout/fragment_hallway" />
+    <fragment
+        android:id="@+id/nav_hall"
+        android:name="com.example.my_application_smart_house.ui.hall.HallFragment"
+        android:label="@string/menu_hall"
+        tools:layout="@layout/fragment_hall" />
+    <fragment
+        android:id="@+id/nav_shower_room"
+        android:name="com.example.my_application_smart_house.ui.shower_room.ShowerRoomFragment"
+        android:label="@string/menu_shower_room" />
+    <fragment
+        android:id="@+id/nav_toilet"
+        android:name="com.example.my_application_smart_house.ui.toilet.ToiletFragment"
+        android:label="@string/menu_toilet"
+        tools:layout="@layout/fragment_toilet" />
+    <fragment
+        android:id="@+id/nav_childrens_room"
+        android:name="com.example.my_application_smart_house.ui.childrens_room.ChildrensRoomFragment"
+        android:label="@string/menu_childrens_room"
+        tools:layout="@layout/fragment_childrens_room" />
+    <fragment
+        android:id="@+id/nav_bedroom"
+        android:name="com.example.my_application_smart_house.ui.bedroom.BedroomFragment"
+        android:label="@string/menu_bedroom"
+        tools:layout="@layout/fragment_bedroom" />
+    <fragment
+        android:id="@+id/nav_kitchen"
+        android:name="com.example.my_application_smart_house.ui.kitchen.KitchenFragment"
+        android:label="@string/menu_kitchen"
+        tools:layout="@layout/fragment_kitchen" />
+</navigation>

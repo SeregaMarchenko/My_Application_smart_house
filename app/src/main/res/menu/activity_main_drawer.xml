@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_bedroom"
+            android:icon="@drawable/baseline_bedroom_parent_24"
+            android:title="@string/menu_bedroom" />
+        <item
+            android:id="@+id/nav_kitchen"
+            android:icon="@drawable/baseline_bedroom_parent_24"
+            android:title="@string/menu_kitchen" />
+        <item
+            android:id="@+id/nav_childrens_room"
+            android:icon="@drawable/baseline_bedroom_parent_24"
+            android:title="@string/menu_childrens_room" />
+        <item
+            android:id="@+id/nav_hallway"
+            android:icon="@drawable/baseline_bedroom_parent_24"
+            android:title="@string/menu_hallway" />
+        <item
+            android:id="@+id/nav_hall"
+            android:icon="@drawable/baseline_bedroom_parent_24"
+            android:title="@string/menu_hall" />
+        <item
+            android:id="@+id/nav_toilet"
+            android:icon="@drawable/baseline_bedroom_parent_24"
+            android:title="@string/menu_toilet" />
+        <item
+            android:id="@+id/nav_shower_room"
+            android:icon="@drawable/baseline_bedroom_parent_24"
+            android:title="@string/menu_shower_room" />
+    </group>
+</menu>
